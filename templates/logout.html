@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<div class="container">
+    <br>
+    <br>
+    <br>
+    <main class="form-signin">
+        <form action="/login" method="post">
+            <img class="mb-4" src="images/icon.png" alt="" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" name="username" id="username" placeholder="name@example.com" style="border-color: #d8bfd8;">
+                <label for="username">Email address</label>
+            </div>
+            <div class
